@@ -21,6 +21,35 @@ FPSGAME_API UClass* Z_Construct_UClass_AFpsGameCharacter_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FpsGame();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class AFpsGameCharacter Function CreateGameSession *****************************
+struct Z_Construct_UFunction_AFpsGameCharacter_CreateGameSession_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FpsGameCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFpsGameCharacter_CreateGameSession_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFpsGameCharacter, nullptr, "CreateGameSession", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFpsGameCharacter_CreateGameSession_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFpsGameCharacter_CreateGameSession_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_AFpsGameCharacter_CreateGameSession()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFpsGameCharacter_CreateGameSession_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AFpsGameCharacter::execCreateGameSession)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->CreateGameSession();
+	P_NATIVE_END;
+}
+// ********** End Class AFpsGameCharacter Function CreateGameSession *******************************
+
 // ********** Begin Class AFpsGameCharacter Function DoAim *****************************************
 struct Z_Construct_UFunction_AFpsGameCharacter_DoAim_Statics
 {
@@ -206,6 +235,7 @@ void AFpsGameCharacter::StaticRegisterNativesAFpsGameCharacter()
 {
 	UClass* Class = AFpsGameCharacter::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "CreateGameSession", &AFpsGameCharacter::execCreateGameSession },
 		{ "DoAim", &AFpsGameCharacter::execDoAim },
 		{ "DoJumpEnd", &AFpsGameCharacter::execDoJumpEnd },
 		{ "DoJumpStart", &AFpsGameCharacter::execDoJumpStart },
@@ -330,6 +360,7 @@ struct Z_Construct_UClass_AFpsGameCharacter_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFpsGameCharacter_CreateGameSession, "CreateGameSession" }, // 3124758076
 		{ &Z_Construct_UFunction_AFpsGameCharacter_DoAim, "DoAim" }, // 1465687396
 		{ &Z_Construct_UFunction_AFpsGameCharacter_DoJumpEnd, "DoJumpEnd" }, // 1707032831
 		{ &Z_Construct_UFunction_AFpsGameCharacter_DoJumpStart, "DoJumpStart" }, // 2712888971
@@ -392,10 +423,10 @@ AFpsGameCharacter::~AFpsGameCharacter() {}
 struct Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_FpsGameCharacter_h__Script_FpsGame_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFpsGameCharacter, AFpsGameCharacter::StaticClass, TEXT("AFpsGameCharacter"), &Z_Registration_Info_UClass_AFpsGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFpsGameCharacter), 3070469810U) },
+		{ Z_Construct_UClass_AFpsGameCharacter, AFpsGameCharacter::StaticClass, TEXT("AFpsGameCharacter"), &Z_Registration_Info_UClass_AFpsGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFpsGameCharacter), 850383045U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_FpsGameCharacter_h__Script_FpsGame_3385194354(TEXT("/Script/FpsGame"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_FpsGameCharacter_h__Script_FpsGame_1051893945(TEXT("/Script/FpsGame"),
 	Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_FpsGameCharacter_h__Script_FpsGame_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_FpsGameCharacter_h__Script_FpsGame_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

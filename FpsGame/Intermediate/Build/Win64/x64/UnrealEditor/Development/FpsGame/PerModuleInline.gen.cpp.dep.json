@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\fpsgame\\fpsgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpsgame\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\fpsgame\\fpsgame\\intermediate\\build\\win64\\x64\\fpsgameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\fpsgame\\fpsgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpsgame\\definitions.fpsgame.h",
+            "k:\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

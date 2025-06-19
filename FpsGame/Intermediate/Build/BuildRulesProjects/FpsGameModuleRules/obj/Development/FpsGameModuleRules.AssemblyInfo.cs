@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FpsGameModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51baadd00ddd9705353fd817b527494977ad7cc1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afccbadd160a3d611d7d224fc7bfb8675a5c09a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("FpsGameModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FpsGameModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

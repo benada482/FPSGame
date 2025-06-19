@@ -290,10 +290,10 @@ AShooterNPC::~AShooterNPC() {}
 struct Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_AI_ShooterNPC_h__Script_FpsGame_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AShooterNPC, AShooterNPC::StaticClass, TEXT("AShooterNPC"), &Z_Registration_Info_UClass_AShooterNPC, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterNPC), 2820919143U) },
+		{ Z_Construct_UClass_AShooterNPC, AShooterNPC::StaticClass, TEXT("AShooterNPC"), &Z_Registration_Info_UClass_AShooterNPC, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterNPC), 2446847072U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_AI_ShooterNPC_h__Script_FpsGame_675557725(TEXT("/Script/FpsGame"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_AI_ShooterNPC_h__Script_FpsGame_607073523(TEXT("/Script/FpsGame"),
 	Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_AI_ShooterNPC_h__Script_FpsGame_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_AI_ShooterNPC_h__Script_FpsGame_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

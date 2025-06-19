@@ -3,20 +3,15 @@
 	{
 		"Module.FpsGame.cpp.obj": [
 			"EnvQueryContext_Target.gen.cpp.obj",
-			"FpsGame.init.gen.cpp.obj",
 			"FpsGameCameraManager.gen.cpp.obj",
-			"FpsGameCharacter.gen.cpp.obj",
 			"FpsGameGameMode.gen.cpp.obj",
 			"FpsGamePlayerController.gen.cpp.obj",
-			"HorrorCharacter.gen.cpp.obj",
 			"HorrorGameMode.gen.cpp.obj",
 			"HorrorPlayerController.gen.cpp.obj",
 			"HorrorUI.gen.cpp.obj",
 			"ShooterAIController.gen.cpp.obj",
 			"ShooterBulletCounterUI.gen.cpp.obj",
-			"ShooterCharacter.gen.cpp.obj",
 			"ShooterGameMode.gen.cpp.obj",
-			"ShooterNPC.gen.cpp.obj",
 			"ShooterPickup.gen.cpp.obj",
 			"ShooterPlayerController.gen.cpp.obj",
 			"ShooterProjectile.gen.cpp.obj",
@@ -27,7 +22,6 @@
 			"PerModuleInline.gen.cpp.obj",
 			"FpsGame.cpp.obj",
 			"FpsGameCameraManager.cpp.obj",
-			"FpsGameCharacter.cpp.obj",
 			"FpsGameGameMode.cpp.obj",
 			"FpsGamePlayerController.cpp.obj",
 			"HorrorCharacter.cpp.obj",
@@ -46,7 +40,13 @@
 			"ShooterProjectile.cpp.obj",
 			"ShooterUI.cpp.obj",
 			"ShooterWeapon.cpp.obj",
-			"ShooterWeaponHolder.cpp.obj"
+			"ShooterWeaponHolder.cpp.obj",
+			"FpsGame.init.gen.cpp.obj",
+			"FpsGameCharacter.gen.cpp.obj",
+			"HorrorCharacter.gen.cpp.obj",
+			"ShooterCharacter.gen.cpp.obj",
+			"ShooterNPC.gen.cpp.obj",
+			"FpsGameCharacter.cpp.obj"
 		]
 	}
 }

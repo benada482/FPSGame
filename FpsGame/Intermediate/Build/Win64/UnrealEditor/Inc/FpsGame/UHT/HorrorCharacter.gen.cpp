@@ -407,10 +407,10 @@ AHorrorCharacter::~AHorrorCharacter() {}
 struct Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Horror_HorrorCharacter_h__Script_FpsGame_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AHorrorCharacter, AHorrorCharacter::StaticClass, TEXT("AHorrorCharacter"), &Z_Registration_Info_UClass_AHorrorCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHorrorCharacter), 960090009U) },
+		{ Z_Construct_UClass_AHorrorCharacter, AHorrorCharacter::StaticClass, TEXT("AHorrorCharacter"), &Z_Registration_Info_UClass_AHorrorCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHorrorCharacter), 1282856056U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Horror_HorrorCharacter_h__Script_FpsGame_1759676155(TEXT("/Script/FpsGame"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Horror_HorrorCharacter_h__Script_FpsGame_2346785624(TEXT("/Script/FpsGame"),
 	Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Horror_HorrorCharacter_h__Script_FpsGame_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Horror_HorrorCharacter_h__Script_FpsGame_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

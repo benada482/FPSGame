@@ -397,10 +397,10 @@ AShooterCharacter::~AShooterCharacter() {}
 struct Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_ShooterCharacter_h__Script_FpsGame_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AShooterCharacter, AShooterCharacter::StaticClass, TEXT("AShooterCharacter"), &Z_Registration_Info_UClass_AShooterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterCharacter), 552514297U) },
+		{ Z_Construct_UClass_AShooterCharacter, AShooterCharacter::StaticClass, TEXT("AShooterCharacter"), &Z_Registration_Info_UClass_AShooterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterCharacter), 286027537U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_ShooterCharacter_h__Script_FpsGame_1817191504(TEXT("/Script/FpsGame"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_ShooterCharacter_h__Script_FpsGame_3405754984(TEXT("/Script/FpsGame"),
 	Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_ShooterCharacter_h__Script_FpsGame_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FpsGame_Source_FpsGame_Variant_Shooter_ShooterCharacter_h__Script_FpsGame_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
