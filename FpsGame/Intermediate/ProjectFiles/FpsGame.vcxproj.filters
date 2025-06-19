@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FpsGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FpsGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FpsGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FpsGame">
+      <UniqueIdentifier>{7955B3B9-BA34-316B-9B94-AB81AF3527E4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FpsGame\FpsGame.Build.cs">
+      <Filter>Source\FpsGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FpsGame\FpsGame.cpp">
+      <Filter>Source\FpsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\FpsGame.h">
+      <Filter>Source\FpsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\FpsGameCameraManager.cpp">
+      <Filter>Source\FpsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\FpsGameCameraManager.h">
+      <Filter>Source\FpsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\FpsGameCharacter.cpp">
+      <Filter>Source\FpsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\FpsGameCharacter.h">
+      <Filter>Source\FpsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\FpsGameGameMode.cpp">
+      <Filter>Source\FpsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\FpsGameGameMode.h">
+      <Filter>Source\FpsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\FpsGamePlayerController.cpp">
+      <Filter>Source\FpsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\FpsGamePlayerController.h">
+      <Filter>Source\FpsGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\FpsGame\Variant_Horror">
+      <UniqueIdentifier>{A9BF6A86-1EA1-310E-ACF5-2D2F2886BC0A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Horror\HorrorCharacter.cpp">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Horror\HorrorCharacter.h">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Horror\HorrorGameMode.cpp">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Horror\HorrorGameMode.h">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Horror\HorrorPlayerController.cpp">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Horror\HorrorPlayerController.h">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Horror\HorrorUI.cpp">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Horror\HorrorUI.h">
+      <Filter>Source\FpsGame\Variant_Horror</Filter>
+    </ClInclude>
+    <Filter Include="Source\FpsGame\Variant_Shooter">
+      <UniqueIdentifier>{235709EB-6104-3240-8AAC-50591C7042C5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterBulletCounterUI.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterBulletCounterUI.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterCharacter.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterCharacter.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterGameMode.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterGameMode.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterPickup.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterPickup.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterPlayerController.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterPlayerController.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterProjectile.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterProjectile.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterUI.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterUI.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterWeapon.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterWeapon.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\ShooterWeaponHolder.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\ShooterWeaponHolder.h">
+      <Filter>Source\FpsGame\Variant_Shooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\FpsGame\Variant_Shooter\AI">
+      <UniqueIdentifier>{5B6FF3D1-55BD-3966-AB00-D58043EAD666}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\AI\EnvQueryContext_Target.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\AI\EnvQueryContext_Target.h">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\AI\ShooterAIController.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\AI\ShooterAIController.h">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\AI\ShooterNPC.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\AI\ShooterNPC.h">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FpsGame\Variant_Shooter\AI\ShooterStateTreeUtility.cpp">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FpsGame\Variant_Shooter\AI\ShooterStateTreeUtility.h">
+      <Filter>Source\FpsGame\Variant_Shooter\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
