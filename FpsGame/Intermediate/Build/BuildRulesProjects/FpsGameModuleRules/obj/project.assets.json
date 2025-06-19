@@ -6991,11 +6991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FPS\\FpsGame\\Intermediate\\Build\\BuildRulesProjects\\FpsGameModuleRules\\FpsGameModuleRules.csproj",
+      "projectUniqueName": "E:\\FPSGame\\FpsGame\\Intermediate\\Build\\BuildRulesProjects\\FpsGameModuleRules\\FpsGameModuleRules.csproj",
       "projectName": "FpsGameModuleRules",
-      "projectPath": "E:\\FPS\\FpsGame\\Intermediate\\Build\\BuildRulesProjects\\FpsGameModuleRules\\FpsGameModuleRules.csproj",
+      "projectPath": "E:\\FPSGame\\FpsGame\\Intermediate\\Build\\BuildRulesProjects\\FpsGameModuleRules\\FpsGameModuleRules.csproj",
       "packagesPath": "C:\\Users\\benad\\.nuget\\packages\\",
-      "outputPath": "E:\\FPS\\FpsGame\\Intermediate\\Build\\BuildRulesProjects\\FpsGameModuleRules\\obj\\",
+      "outputPath": "E:\\FPSGame\\FpsGame\\Intermediate\\Build\\BuildRulesProjects\\FpsGameModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
