@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"E:\\FPSGame\\FpsGame\\Source\\FpsGame\\FpsGame.Build.cs",
-		"E:\\FPSGame\\FpsGame\\Source\\FpsGame.Target.cs",
-		"E:\\FPSGame\\FpsGame\\Source\\FpsGameEditor.Target.cs"
-	],
-	"EngineVersion": "5.6.0"
-}
